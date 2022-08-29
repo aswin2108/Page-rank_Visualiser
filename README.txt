@@ -35,9 +35,12 @@ Win: spider.py
 
 Enter web url or enter: https://en.wikipedia.org/wiki/Google
 ['https://en.wikipedia.org/wiki/Google']
-How many pages:2
-1 http://www.dr-chuck.com/ 12
-2 http://www.dr-chuck.com/csev-blog/ 57
+How many pages:100
+1 https://en.wikipedia.org/wiki/Google (920424) 1226
+170 https://en.wikipedia.org/wiki/Google_Moderator (50544) 41
+104 https://en.wikipedia.org/wiki/Google_JAX (152667) 337
+5 https://en.wikipedia.org/wiki/Google_Maps (521783) 795
+...
 How many pages:
 
 In this sample run, we told it to crawl a website and retrieve two 
@@ -49,8 +52,8 @@ each successive run of spider.py is additive.
 Mac: python3 spider.py 
 Win: spider.py
 
-Enter web url or enter: http://www.dr-chuck.com/
-['http://www.dr-chuck.com']
+Enter web url or enter: https://en.wikipedia.org/wiki/Google
+['https://en.wikipedia.org/wiki/Google']
 How many pages:100
 1 https://en.wikipedia.org/wiki/Google (920424) 1226
 170 https://en.wikipedia.org/wiki/Google_Moderator (50544) 41
